@@ -1,0 +1,6 @@
+[
+  { "id": "r_lumen_phone", "customerId": "c_lumen", "name": "Claire Dubois", "email": "claire@lumen-coaching.ch", "company": "Lumen Coaching", "service": "phone", "kind": "order", "message": "Je souhaite mettre en place la permanence téléphonique à partir du mois prochain, de 9 h à 12 h.", "status": "new", "createdAt": "@d-2T10:20" },
+  { "id": "r_alpine_admin", "customerId": "c_alpine", "name": "Nadia Keller", "email": "n.keller@alpine-trade.ch", "company": "Alpine Trade SA", "service": "admin_assistance", "kind": "quote", "message": "Besoin d’environ 4 heures d’assistance administrative pour classer nos documents douaniers.", "status": "new", "createdAt": "@d-1T14:05" },
+  { "id": "r_rossi_formation", "name": "Elena Rossi", "email": "elena.rossi@bluewin.ch", "service": "formation", "kind": "quote", "message": "Je crée une Sàrl dans le domaine du conseil RH et j’aimerais être accompagnée pour les démarches.", "status": "new", "createdAt": "@d0T08:31" },
+  { "id": "r_kessler_scan", "customerId": "c_kessler", "name": "Thomas Kessler", "email": "thomas@kessler-digital.ch", "company": "Kessler Digital GmbH", "service": "scanning", "kind": "order", "message": "Numérisation de 120 pages d’archives.", "status": "done", "quote": 24, "createdAt": "@d-15T09:00" }
+]

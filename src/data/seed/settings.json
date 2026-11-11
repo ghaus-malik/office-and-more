@@ -1,0 +1,14 @@
+{
+  "prices": { "office": 1000, "room_hour": 45, "room_half": 140, "room_day": 240, "domi_essentielle": 149, "domi_confort": 199, "domi_premium": 249, "phone": 120, "locker": 30, "mail_forwarding": 25, "admin_assistance": 60, "scanning": 0.2 },
+  "quotas": { "domi_essentielle": 0, "domi_confort": 20, "domi_premium": 60 },
+  "scansUsed": { "c_rochat": 7, "c_vautravers": 12, "c_alpine": 31, "c_lumen": 0, "c_jura": 0, "c_bieri": 0 },
+  "automations": [
+    { "id": "booking_confirmation", "enabled": true },
+    { "id": "mail_notification", "enabled": true },
+    { "id": "payment_reminder", "enabled": true, "intervals": [10, 20] },
+    { "id": "renewal_notice", "enabled": true, "daysBefore": 7 },
+    { "id": "contract_expiry", "enabled": true, "daysBefore": 90 },
+    { "id": "welcome", "enabled": true }
+  ],
+  "lastBexioSync": "@d0T07:45"
+}

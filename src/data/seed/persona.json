@@ -1,0 +1,12 @@
+{
+  "firstName": "Nicolas",
+  "lastName": "Robert",
+  "email": "nicolas.robert@robert-conseil.ch",
+  "phone": "+41 79 482 15 37",
+  "company": "Robert Conseil Sàrl",
+  "legalForm": "sarl",
+  "uid": "CHE-412.587.903",
+  "activity": "Conseil en gestion d’entreprise",
+  "address": { "street": "Avenue de la Gare 15", "zip": "2000", "city": "Neuchâtel" },
+  "card": { "number": "4242 4242 4242 4242", "expiry": "08/29", "cvc": "123", "name": "Nicolas Robert" }
+}

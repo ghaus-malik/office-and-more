@@ -1,0 +1,4 @@
+[
+  { "id": "f_r2", "mailId": "m_r2", "customerId": "c_rochat", "address": { "id": "fa_home", "label": "Domicile", "name": "Léa Rochat", "street": "Chemin des Pavés 14", "zip": "2000", "city": "Neuchâtel" }, "requestedAt": "@d-10T12:03", "status": "sent", "sentAt": "@d-9T09:30" },
+  { "id": "f_a1", "mailId": "m_a1", "customerId": "c_alpine", "address": { "id": "fa_a1", "label": "Siège Genève", "name": "Alpine Trade SA", "street": "Rue du Rhône 48", "zip": "1204", "city": "Genève" }, "requestedAt": "@d-2T15:40", "status": "pending" }
+]

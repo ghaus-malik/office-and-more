@@ -1,0 +1,16 @@
+[
+  { "id": "s_perrin_office", "customerId": "c_perrin", "product": "office", "officeId": "b1", "price": 1000, "startDate": "@M-6", "nextRenewal": "@M1", "paymentMethod": "invoice", "status": "active" },
+  { "id": "s_perrin_phone", "customerId": "c_perrin", "product": "phone", "price": 120, "startDate": "@M-5", "nextRenewal": "@M1", "paymentMethod": "invoice", "status": "active" },
+  { "id": "s_nussli_office", "customerId": "c_nussli", "product": "office", "officeId": "b2", "price": 1000, "startDate": "@M-5", "nextRenewal": "@M1", "paymentMethod": "invoice", "status": "late" },
+  { "id": "s_favre_office", "customerId": "c_favre", "product": "office", "officeId": "b3", "price": 1000, "startDate": "@M-4", "nextRenewal": "@M1", "paymentMethod": "invoice", "status": "active" },
+  { "id": "s_favre_phone", "customerId": "c_favre", "product": "phone", "price": 120, "startDate": "@M-4", "nextRenewal": "@M1", "paymentMethod": "invoice", "status": "active" },
+  { "id": "s_kessler_office", "customerId": "c_kessler", "product": "office", "officeId": "b4", "price": 1000, "startDate": "@M-4", "nextRenewal": "@M1", "paymentMethod": "card", "status": "active" },
+  { "id": "s_kessler_locker", "customerId": "c_kessler", "product": "locker", "price": 30, "startDate": "@M-3", "nextRenewal": "@M1", "paymentMethod": "card", "status": "active" },
+  { "id": "s_rochat_domi", "customerId": "c_rochat", "product": "domi_confort", "price": 199, "startDate": "@M-5d3", "nextRenewal": "@M1d3", "paymentMethod": "card", "status": "active" },
+  { "id": "s_vautravers_domi", "customerId": "c_vautravers", "product": "domi_confort", "price": 199, "startDate": "@M-2", "nextRenewal": "@M1", "paymentMethod": "card", "status": "active" },
+  { "id": "s_alpine_domi", "customerId": "c_alpine", "product": "domi_premium", "price": 249, "startDate": "@M-5", "nextRenewal": "@M1", "paymentMethod": "card", "status": "active" },
+  { "id": "s_lumen_domi", "customerId": "c_lumen", "product": "domi_essentielle", "price": 149, "startDate": "@M-4", "nextRenewal": "@M1", "paymentMethod": "twint", "status": "active" },
+  { "id": "s_jura_domi", "customerId": "c_jura", "product": "domi_essentielle", "price": 149, "startDate": "@M-3", "nextRenewal": "@M1", "paymentMethod": "invoice", "status": "late" },
+  { "id": "s_bieri_domi", "customerId": "c_bieri", "product": "domi_essentielle", "price": 149, "startDate": "@M-3", "nextRenewal": "@M1", "paymentMethod": "card", "status": "active" },
+  { "id": "s_kappa_domi", "customerId": "c_kappa", "product": "domi_essentielle", "price": 149, "startDate": "@M-6", "nextRenewal": "@M-1", "paymentMethod": "card", "status": "cancelled", "cancelAt": "@M-1" }
+]

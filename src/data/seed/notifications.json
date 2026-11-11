@@ -1,0 +1,5 @@
+[
+  { "id": "n_r5", "customerId": "c_rochat", "kind": "mail", "text": "mailArrived", "params": { "sender": "Papeterie du Lac SA (facture)" }, "link": "/espace/courrier?item=m_r5", "at": "@d-1T09:49", "read": false },
+  { "id": "n_inv", "customerId": "c_rochat", "kind": "invoice", "text": "invoiceIssued", "params": { "number": "OM-2026-0145" }, "link": "/espace/factures?item=i05", "at": "@M0T07:00", "read": true },
+  { "id": "n_r4", "customerId": "c_rochat", "kind": "mail", "text": "mailArrived", "params": { "sender": "Assurance (attestation)" }, "link": "/espace/courrier?item=m_r4", "at": "@d-4T11:31", "read": true }
+]

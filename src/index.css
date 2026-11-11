@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Office & More theme layer — shared components read only these tokens. */
+:root {
+  --ink: 17 17 17;
+  --ink-soft: 45 43 40;
+  --paper: 255 255 255;
+  --sand-50: 250 249 247;
+  --sand-100: 245 243 239;
+  --sand-200: 231 227 220;
+  --sand-300: 214 208 198;
+  --muted: 107 102 96;
+  --ok: 30 132 73;
+  --ok-bg: 231 245 236;
+  --warn: 176 112 16;
+  --warn-bg: 252 243 225;
+  --bad: 192 52 40;
+  --bad-bg: 252 234 232;
+  --info: 46 92 168;
+  --info-bg: 233 240 251;
+  color-scheme: light;
+}
+
+@layer base {
+  html { -webkit-text-size-adjust: 100%; text-rendering: optimizeLegibility; overflow-x: clip; }
+  body { overflow-x: clip; }
+  body { @apply bg-paper text-ink font-sans antialiased; font-feature-settings: 'cv11', 'ss01'; }
+  h1, h2, h3, h4 { @apply font-extrabold tracking-tight; }
+  ::selection { @apply bg-ink text-paper; }
+  :focus-visible { outline: 2px solid rgb(var(--ink)); outline-offset: 2px; border-radius: 6px; }
+  input[type='number']::-webkit-inner-spin-button { -webkit-appearance: none; }
+}
+
+@layer components {
+  .container-site { @apply mx-auto w-full max-w-6xl px-5 sm:px-8; }
+  .display { @apply font-extrabold tracking-tightest leading-[1.02]; }
+  .eyebrow { @apply text-xs font-semibold uppercase tracking-[0.14em] text-muted; }
+  .divider-row { @apply border-t border-sand-200; }
+  .scroll-thin { scrollbar-width: thin; scrollbar-color: rgb(var(--sand-300)) transparent; }
+  .no-scrollbar { scrollbar-width: none; }
+  .no-scrollbar::-webkit-scrollbar { display: none; }
+}
+
+.pb-safe { padding-bottom: env(safe-area-inset-bottom); }
+
+@keyframes spin-slow { to { transform: rotate(360deg); } }
+.animate-spin-slow { animation: spin-slow 1s linear infinite; }
+
+@media print {
+  .no-print { display: none !important; }
+}

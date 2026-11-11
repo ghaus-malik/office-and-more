@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+<rect width="800" height="600" fill="#f3f0ea"/>
+<path d="M0 470 C 160 440, 300 500, 460 470 S 700 430, 800 450 L800 600 L0 600Z" fill="#cfdde3"/>
+<text x="560" y="540" font-family="Helvetica, Arial, sans-serif" font-size="16" font-style="italic" fill="#7f97a3">Lac de Neuchâtel</text>
+<g fill="#e7e2d9">
+<rect x="60" y="60" width="150" height="110" rx="6"/><rect x="240" y="40" width="120" height="140" rx="6"/><rect x="400" y="70" width="170" height="90" rx="6"/><rect x="610" y="50" width="140" height="130" rx="6"/>
+<rect x="70" y="220" width="130" height="150" rx="6"/><rect x="250" y="240" width="110" height="120" rx="6"/><rect x="560" y="230" width="190" height="140" rx="6"/>
+</g>
+<g fill="#dfe6d6"><rect x="400" y="215" width="120" height="150" rx="6"/></g>
+<g stroke="#fff" stroke-width="18" fill="none" stroke-linecap="round">
+<path d="M0 200 H800"/><path d="M220 0 V430"/><path d="M380 0 V420"/><path d="M590 0 V420"/><path d="M0 410 C 200 395, 400 420, 800 400"/>
+</g>
+<g stroke="#fff" stroke-width="9" fill="none"><path d="M380 200 C 430 250, 480 260, 590 300"/></g>
+<text x="420" y="300" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#8a9a7c">Château</text>
+<text x="20" y="194" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#a39d93">Rue du Château</text>
+<g transform="translate(470 196)">
+<circle r="34" fill="#111" opacity=".08"/>
+<path d="M0 -56 c -20 0 -34 15 -34 33 c 0 26 34 55 34 55 s 34 -29 34 -55 c 0 -18 -14 -33 -34 -33z" fill="#111"/>
+<circle cy="-24" r="12" fill="#fff"/>
+</g>
+<g transform="translate(470 120)"><rect x="-86" y="-58" width="172" height="40" rx="20" fill="#111"/><text y="-32" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#fff">Rue du Château 7</text></g>
+</svg>

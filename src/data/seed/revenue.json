@@ -1,0 +1,8 @@
+[
+  { "month": "@M-5", "offices": 2000, "domiciliation": 497, "room": 420, "services": 120 },
+  { "month": "@M-4", "offices": 3000, "domiciliation": 646, "room": 610, "services": 120 },
+  { "month": "@M-3", "offices": 4000, "domiciliation": 945, "room": 735, "services": 270 },
+  { "month": "@M-2", "offices": 4000, "domiciliation": 1094, "room": 890, "services": 270 },
+  { "month": "@M-1", "offices": 4000, "domiciliation": 1094, "room": 1060, "services": 294 },
+  { "month": "@M0", "offices": 4000, "domiciliation": 1094, "room": 1180, "services": 270 }
+]

@@ -1,0 +1,15 @@
+[
+  { "id": "ac1", "type": "bexio", "text": "bexioSync", "params": { "n": 22 }, "at": "@d0T07:45" },
+  { "id": "ac2", "type": "service", "text": "serviceRequest", "params": { "name": "Elena Rossi", "service": "formation" }, "at": "@d0T08:31" },
+  { "id": "ac3", "type": "mail", "text": "mailLogged", "params": { "company": "Alpine Trade SA", "sender": "DHL Express" }, "customerId": "c_alpine", "at": "@d0T08:56" },
+  { "id": "ac4", "type": "mail", "text": "mailLogged", "params": { "company": "Lumen Coaching", "sender": "Swisscom (Suisse) SA" }, "customerId": "c_lumen", "at": "@d0T09:11" },
+  { "id": "ac5", "type": "application", "text": "applicationNew", "params": { "company": "Studio Meraki Sàrl", "product": "domi_essentielle" }, "at": "@d-1T16:22" },
+  { "id": "ac6", "type": "service", "text": "serviceRequest", "params": { "name": "Nadia Keller", "service": "admin_assistance" }, "customerId": "c_alpine", "at": "@d-1T14:05" },
+  { "id": "ac7", "type": "mail", "text": "mailLogged", "params": { "company": "Rochat Design Sàrl", "sender": "Papeterie du Lac SA (facture)" }, "customerId": "c_rochat", "at": "@d-1T09:49" },
+  { "id": "ac8", "type": "booking", "text": "bookingNew", "params": { "name": "Léa Rochat", "date": "@w8" }, "customerId": "c_rochat", "at": "@d-2T19:45" },
+  { "id": "ac9", "type": "payment", "text": "paymentReceived", "params": { "name": "Léa Rochat", "amount": 90, "method": "card" }, "customerId": "c_rochat", "at": "@d-2T19:46" },
+  { "id": "ac10", "type": "forward", "text": "forwardRequested", "params": { "company": "Alpine Trade SA", "city": "Genève" }, "customerId": "c_alpine", "at": "@d-2T15:40" },
+  { "id": "ac11", "type": "reminder", "text": "reminderSent", "params": { "company": "Atelier Nüssli", "number": "OM-2026-0129", "level": 1 }, "customerId": "c_nussli", "at": "@d-4T08:00" },
+  { "id": "ac12", "type": "reminder", "text": "reminderSent", "params": { "company": "Jura Consulting", "number": "OM-2026-0136", "level": 1 }, "customerId": "c_jura", "at": "@d-4T08:00" },
+  { "id": "ac13", "type": "booking", "text": "bookingNew", "params": { "name": "Pierre Vautravers", "date": "@w5" }, "customerId": "c_vautravers", "at": "@d-3T17:30" }
+]
